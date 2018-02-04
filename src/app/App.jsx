@@ -1,13 +1,12 @@
 import React from 'react';
-import Button from 'material-ui/Button';
+
+import { Layout } from './layout';
+import { Router } from './Router';
 
 export const App = () => (
   <div>
-    Hotel Manager Component
-    <Button raised color="primary">
-      Hello World
-    </Button>
+    <Layout>
+      <Router />
+    </Layout>
   </div>
 );
-
-export default App;
