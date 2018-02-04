@@ -1,0 +1,42 @@
+{
+  "name": "hotel-manager-react",
+  "version": "1.0.0",
+  "description": "Hotel Management SPA using React.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonayet/hotel-manager-react.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "firebase"
+  ],
+  "author": "Jonayet Hossain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonayet/hotel-manager-react/issues"
+  },
+  "homepage": "https://github.com/jonayet/hotel-manager-react#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "jest": "^22.1.4",
+    "parcel-bundler": "^1.5.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
