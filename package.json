@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html --public-url ./",
-    "deploy": "PUBLIC_URL=/hotel-manager-react parcel build src/index.html --public-url ./ && gh-pages -d dist",
+    "deploy": "PUBLIC_URL=/hotel-manager-react/ parcel build src/index.html --public-url /hotel-manager-react/ && gh-pages -d dist",
     "test": "jest"
   },
   "repository": {
