@@ -1,11 +1,10 @@
 import React from 'react';
-import Button from 'material-ui/Button';
+
+import { Booking } from './../booking';
 
 export const Dashboard = () => (
   <div>
     Dashboard
-    <Button raised color="primary">
-      Hello World
-    </Button>
+    <Booking />
   </div>
 );
