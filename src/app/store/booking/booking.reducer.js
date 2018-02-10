@@ -1,4 +1,4 @@
-import { ActionTypes } from './booking.action';
+import { ActionType } from './booking.action';
 
 const initialState = [
   {
@@ -12,10 +12,10 @@ const initialState = [
 
 export const bookingReducer = (state = initialState, action) => {
   switch (action.type) {
-    case ActionTypes.GET_BOOKING:
+    case ActionType.GET_BOOKING:
       return state;
 
-    case ActionTypes.ADD_BOOKING:
+    case ActionType.ADD_BOOKING:
       return state.concat(action.payload);
 
     default:

@@ -4,6 +4,7 @@ import Button from 'material-ui/Button';
 
 import { RoomTile } from './RoomTile';
 import { addBooking } from '../store/booking';
+import './Booking.scss';
 
 /* eslint-disable react/prop-types */
 class BookingComponent extends Component {

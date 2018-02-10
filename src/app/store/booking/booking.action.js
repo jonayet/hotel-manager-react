@@ -1,14 +1,14 @@
 
-export const ActionTypes = {
-  GET_BOOKING: '[BOOKING] GET',
-  ADD_BOOKING: '[BOOKING] ADD',
+export const ActionType = {
+  GET_BOOKING: Symbol('GET_BOOKING'),
+  ADD_BOOKING: Symbol('ADD_BOOKING'),
 };
 
 export const getBooking = () => ({
-  type: ActionTypes.GET_BOOKING,
+  type: ActionType.GET_BOOKING,
 });
 
 export const addBooking = booking => ({
-  type: ActionTypes.ADD_BOOKING,
+  type: ActionType.ADD_BOOKING,
   payload: booking,
 });
